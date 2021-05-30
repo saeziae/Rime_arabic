@@ -1,0 +1,53 @@
+﻿# Rime dictionary
+# encoding: utf-8
+
+---
+name: arabic
+version: "20210530"
+sort: original
+...
+
+ء	2
+ا	a
+أ	2a
+إ	2i
+آ	2e
+ب	b
+ت	t
+ث	th
+ج	j
+ح	7
+خ	kh
+د	d
+ذ	dh
+ر	r
+ز	z
+س	s
+ش	sh
+ص	t'
+ض	d'
+ط	s'
+ظ	z'
+ع	3
+غ	gh
+ف	f
+ق	q
+ك	k
+ل	l
+م	m
+ن	n
+ه	h
+ة	h'
+و	w
+ؤ	2w
+ي	y
+ئ	2y
+ً	``a
+ٌ	``u
+ٍ	``i
+َ	`a
+ُ	`u
+ِ	`i
+ّ	`w
+ْ	`o
+

@@ -1,0 +1,85 @@
+﻿# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: arabic
+  name: "Arabi"
+  version: "20210530"
+  author:
+    - saeziae
+  description:
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ ا , A ]
+    
+engine:
+  processors:
+    - ascii_composer
+    - key_binder
+    - speller
+    - selector
+    - punctuator
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator
+    
+speller:
+  alphabet: 'abcdefghijklmnopqrstuvwxyz'
+  delimiter: ''
+  #max_code_length: 3
+  auto_select: true
+  #auto_select_unique_candidate: true
+  auto_clear: max_length
+  algebra:
+    - xform/2/c/
+    - xform/7/v/
+    - xform/3/o/
+    - xform/`/x/
+    - xform/'/p/
+    
+translator:
+  dictionary: arabic
+  enable_encoder: false
+  enable_user_dict: false
+  enable_sentence: false
+  enable_completion: true
+  preedit_format:
+    - xform/p/'/
+    - xform/c/2/
+    - xform/v/7/
+    - xform/o/3/
+    - xform/x/`/
+    - xform/`3/`o/  
+    
+punctuator:
+  half_shape: &punct
+    "1": "١"
+    "2": "٢"
+    "3": "٣"
+    "4": "٤"
+    "5": "٥"
+    "6": "٦"
+    "7": "٧"
+    "8": "٨"
+    "9": "٩"
+    "0": "٠"
+    ";" : ؛
+    "_": "ـ" 
+    "," : ،
+    "?" : ؟
+    "." : .
+    "}" : "«"
+    "{" : "»"
+#  full_shape: *punct
+key_binder:
+  bindings:
+    - {when: has_menu, accept: space, send: space}
+    - {when: composing, accept: space, send: Escape}
