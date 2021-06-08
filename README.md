@@ -33,16 +33,16 @@
 | ن | n |  |
 | ه | h |  |
 | ة | h' |  |
-| و | w |  |
+| و | w | also u |
 | ؤ | 2w |  |
-| ي | y |  |
+| ي | y | also i |
 | ئ | 2y |  |
-| ◌ً | ``a | use <kbd>x</kbd> to input <code>`</code> on keyboard |
-| ◌ٌ | ``u |  |
-| ◌ٍ | ``i |  |
-| ◌َ | `a |  |
-| ◌ُ | `u |  |
-| ◌ِ | `i |  |
-| ◌ّ | `w |  |
-| ◌ْ | `o |  |
+| ـً | ``a | use <kbd>x</kbd> to input <code>`</code> on keyboard |
+| ـٌ | ``u |  |
+| ـٍ | ``i |  |
+| ـَ | `a |  |
+| ـُ | `u |  |
+| ـِ | `i |  |
+| ـّ | `w |  |
+| ـْ | `o |  |
 

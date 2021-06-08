@@ -3,7 +3,7 @@
 
 ---
 name: arabic
-version: "20210530"
+version: "20210608"
 sort: original
 ...
 
@@ -39,8 +39,10 @@ sort: original
 ه	h
 ة	h'
 و	w
+و	u
 ؤ	2w
 ي	y
+ي	i
 ئ	2y
 ً	``a
 ٌ	``u
