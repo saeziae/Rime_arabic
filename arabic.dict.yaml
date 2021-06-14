@@ -10,6 +10,7 @@ sort: original
 ء	2
 ا	a
 أ	2a
+أ	2u
 إ	2i
 آ	2e
 ب	b
@@ -24,9 +25,9 @@ sort: original
 ز	z
 س	s
 ش	sh
-ص	t'
+ص	s'
 ض	d'
-ط	s'
+ط	t'
 ظ	z'
 ع	3
 غ	gh
@@ -44,6 +45,8 @@ sort: original
 ي	y
 ي	i
 ئ	2y
+ى `e
+ى `y
 ً	``a
 ٌ	``u
 ٍ	``i
