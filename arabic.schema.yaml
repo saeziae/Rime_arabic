@@ -78,7 +78,7 @@ punctuator:
     "." : .
     "}" : "«"
     "{" : "»"
-#  full_shape: *punct
+  full_shape: *punct
 key_binder:
   bindings:
     - {when: has_menu, accept: space, send: space}
